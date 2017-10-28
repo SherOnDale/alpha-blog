@@ -1,0 +1,15 @@
+current directory: /mnt/c/projects/ror/rails_course/alpha-blog/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+/home/SherOnDale13/.rbenv/versions/2.4.2/bin/ruby -r ./siteconf20171026-1679-w32gbs.rb extconf.rb
+creating Makefile
+
+current directory: /mnt/c/projects/ror/rails_course/alpha-blog/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /mnt/c/projects/ror/rails_course/alpha-blog/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.so
+
+current directory: /mnt/c/projects/ror/rails_course/alpha-blog/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20171026-1679-102u5j8/bindex
