@@ -1,14 +1,26 @@
-<h1 align="center">Edit existing article</h1>
+<h1 align="center">Create an article</h1>
 
 <% if @article.errors.any? %>
-    <h2>The following error(s) prevented the article from getting updated</h2>
-    <ul>
-        <% @article.errors.full_messages.each do |msg| %>
-            <li>
-                <%= msg %>
-            </li>
-        <% end %>
-    </ul>
-<% end %>
+    <div class="row">
+        <div class="col-sm-8 offset-sm-2">
+            <div class="card text-white bg-danger mb-3">
+                <div class="card-header">
+                    The following
+                    <%= pluralize(@article.errors.count, "error") %>
+                        prevented the article from getting updated
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <% @article.errors.full_messages.each do |msg| %>
+                            <li>
+                                <%= msg %>
+                            </li>
+                            <% end %>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <% end %>
 
-<%= render 'form' %>
+        <%= render 'form' %>
