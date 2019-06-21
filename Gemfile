@@ -13,7 +13,7 @@ gem 'puma', '~> 3.7'
 gem 'rake', '~> 12.2.1'
 # Use SCSS for stylesheets
 gem 'sprockets-rails', :require => 'sprockets/railtie'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.3.4'
 gem 'bootstrap', '~> 4.0.0.beta2'
 gem 'sass-rails', '~> 5.0'
 gem 'pkg-config', '~> 1.1'
